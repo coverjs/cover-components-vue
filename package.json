@@ -1,0 +1,30 @@
+{
+  "name": "@cover-components-vue/workspace",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "pnpm --filter cover-components-vue build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/lodash-es": "^4.17.12",
+    "@types/node": "^22.9.0",
+    "@vitejs/plugin-vue": "^5.1.4",
+    "@vitejs/plugin-vue-jsx": "^4.0.1",
+    "@vue/tsconfig": "^0.5.1",
+    "typescript": "^5.6.3",
+    "vite": "^5.4.10",
+    "vue-tsc": "^2.1.10"
+  },
+  "dependencies": {
+    "lodash-es": "^4.17.21",
+    "vue": "^3.5.12",
+    "@cover-components-vue/components": "workspace:*",
+    "@cover-components-vue/hooks": "workspace:*",
+    "@cover-components-vue/storys": "workspace:*",
+    "@cover-components-vue/utils": "workspace:*"
+  }
+}
