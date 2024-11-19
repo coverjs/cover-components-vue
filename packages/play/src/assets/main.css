@@ -1,0 +1,5 @@
+@import './base.css';
+
+:root{
+  --cover-prefix: cover
+}

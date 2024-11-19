@@ -1,0 +1,17 @@
+{
+  "name": "@cover-components-vue/layout",
+  "version": "0.0.1",
+  "description": "",
+  "main": "src/index.ts",
+  "scripts": {
+    "build": "vite build"
+  },
+  "peerDependencies": {
+    "ant-design-vue": "^4.2.6",
+    "@ant-design/icons-vue": "^7.0.1",
+    "vue": "^3.5.12"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
